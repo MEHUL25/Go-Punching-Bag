@@ -1,4 +1,6 @@
 
+Refer this - https://github.com/ashishps1/awesome-leetcode-articles
+
 Map of Map
 
 2D array
@@ -7,9 +9,70 @@ vector of pairs
 
 sorting of vector of pairs
 
-set of elements
+set - unordered and ordered set
 
 array of Map
+
+Union and intersection of sets
+
+Math algorithms like gcd, lcm
+
+Graph
+Dijkstra
+DFS and BFS
+Heap
+Set
+Segment tree
+Lazy segment tree
+HAMT
+Bitset
+LinkedList
+Queue
+Stack
+Tuple
+DP
+Diophantine equations
+Polynomials
+Binary exponentation
+GCD and LCM
+Binary search
+Selection sort
+Mo's algorithm
+Sqrt decomposition
+Radix sort (LSD and MSD)
+
+https://github.com/lorenzotinfena/goji
+
+https://codeforces.com/blog/entry/96995
+
+Set : 
+
+One reason is that it is easy to create a set from map:
+
+s := map[int]bool{5: true, 2: true}
+_, ok := s[6] // check for existence
+s[8] = true // add element 
+delete(s, 2) // remove element
+Union
+
+s_union := map[int]bool{}
+for k, _ := range s1{
+    s_union[k] = true
+}
+for k, _ := range s2{
+    s_union[k] = true
+}
+Intersection
+
+s_intersection := map[int]bool{}
+if len(s1) > len(s2) {
+  s1, s2 = s2, s1 // better to iterate over a shorter set
+}
+for k,_ := range s1 { 
+  if s2[k] {
+    s_intersection[k] = true
+  }
+}
 
 
 
